@@ -1,7 +1,11 @@
-import Header from "../app/Header";
+import RootLayout from "../app/layout";
 
 const App = () => {
-  return <Header />;
+  return (
+    <RootLayout>
+      <div>Hello</div>
+    </RootLayout>
+  );
 };
 
 export default App;
