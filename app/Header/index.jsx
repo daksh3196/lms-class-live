@@ -1,13 +1,13 @@
-import './style.scss'
+import styles from "../../styles/Header.module.scss";
 
 const Header = () => {
     return(
-        <div className="header-div"> 
-            <div className="header-flex">
-                <div className="app-item-logo-txt">
+        <div className={styles.header_div}> 
+            <div className={styles.header_flex}>
+                <div className={styles.app_item_logo_txt}>
                     <span>{process.env.APP_NAME}</span>
                 </div>
-                <div className="app-profile">
+                <div className={styles.app_profile}>
                     Default User
                 </div>
             </div>

@@ -1,0 +1,19 @@
+// .header_div {}
+
+// .header_div>.header_flex {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     gap: 20px;
+// }
+
+.header_div>.app_profile {}
+
+.header_div{
+    .header_flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}
